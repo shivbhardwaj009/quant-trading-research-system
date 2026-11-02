@@ -214,5 +214,5 @@ def load_multiple_tickers(
 
 if __name__ == "__main__":
     print("Testing data_loader.py independently...")
-    data = load_multiple_tickers(tickers=DEFAULT_TICKERS, period="1y")
+    data = load_multiple_tickers(tickers=DEFAULT_TICKERS, period=DEFAULT_PERIOD)
     print(f"Successfully loaded {len(data)} tickers: {list(data.keys())}")
